@@ -1,32 +1,33 @@
 // Assignment 02 — Go Variables
 //
 // QUESTION:
-// Create a program that uses the variable declaration styles below.
-// Assign values to variables declared without values, then print every variable.
+// Create a Go program and complete these tasks:
 //
-// Use these styles:
-// 1. var name string          (declare first, assign later)
-// 2. var city = "Jind"        (type inference with var)
-// 3. var country string = "India" (explicit type and value)
-// 4. var age, year int        (declare two integers, assign later)
-// 5. var first, second int = 10, 20 (declare and initialize together)
-// 6. var score, status = 95, "Passed" (different types, inferred)
-// 7. A grouped var (...) declaration containing:
-//    - a variable declared with type only
-//    - a variable with inferred type
-//    - a variable with explicit type and value
-//    - two variables of different types declared with values
+// 1. Declare one string variable without a value. Assign a name to it later.
+// 2. Declare one variable with var and let Go infer its type from the value.
+// 3. Declare one string variable with its type and value together.
+// 4. Declare two int variables together without values. Assign values to them later.
+// 5. Declare and initialize two int variables together.
+// 6. Declare two variables of different types together and let Go infer both types.
+// 7. Create one grouped var declaration (var (...)) containing:
+//    - one int variable declared without a value
+//    - one variable initialized with type inference
+//    - one int variable declared with its type and value
+//    - two different-type variables initialized together
 //    - two string variables declared without values
-// 8. nickname := "Vansh"      (short declaration)
-// 9. code, language := 1, "Go" (short declaration for two variables)
+//    Assign values later to every variable that has no initial value.
+// 8. Create one string variable using short declaration (:=).
+// 9. Use short declaration (:=) to create two variables of different types together.
 //
-// OUTPUT:
-// Print all variables using fmt.Println().
-// Your output should show the values you assigned (for example: Vansh, Jind,
-// India, 22, 2026, 10, 20, 95, Passed, etc.).
+// Finally, print every variable using fmt.Println().
+//
+// EXPECTED OUTPUT:
+// The output must display every variable's assigned value.
+// You can choose sensible values, such as Vansh, Jind, India, 22, 2026,
+// 10, 20, 95, Passed, and Go.
 //
 // RULES:
-// - Use only the variable declaration styles listed above and fmt.Println().
+// - Use only the variable declaration styles learned on Page 2.
 // - Do not use const, loops, conditions, or extra functions.
 // - Run: go run assignment-02.go
 
