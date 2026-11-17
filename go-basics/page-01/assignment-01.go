@@ -30,6 +30,5 @@ func main() {
 }
 
 func welcomeuser(name string) string {
-	return "hello" + name + "!"
-
+	return "Welcome to Go programming," + " " + name + "!"
 }
