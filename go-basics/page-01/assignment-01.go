@@ -25,10 +25,10 @@ package main
 import "fmt"
 
 func main() {
-	call := welcomeuser("Vansh")
+	call := welcomeUser("Vansh")
 	fmt.Println(call)
 }
 
-func welcomeuser(name string) string {
+func welcomeUser(name string) string {
 	return "Welcome to Go programming," + " " + name + "!"
 }
