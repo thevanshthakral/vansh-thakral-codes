@@ -22,6 +22,14 @@
 
 package main
 
+import "fmt"
+
 func main() {
-	// TODO: Write your code here.
+	call := welcomeuser("Vansh")
+	fmt.Println(call)
+}
+
+func welcomeuser(name string) string {
+	return "hello" + name + "!"
+
 }
